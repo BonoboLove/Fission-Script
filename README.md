@@ -6,7 +6,9 @@ Files:
   1. code.fss - The coding language's coding environment, this is where you write your Fission Script code
   2. transpile.py - The transpiler that converts the code.fss into Python, the new python code is written to pycode.py
   4. pycode.py - The new transpiled code, its completely made up of Python
-  5. error_log.txt - The error log, it logs any errors doing the compilation
+      This is the same as app.exe but in the python form
+  6. error_log.txt - The error log, it logs any errors doing the compilation
+  7. app.exe - The compiled python code from pycode.py
 All of these files' name can be changed within the starting lines of transpile.py (transpile.py can also be changed)
 
 Commands:
