@@ -1,0 +1,9 @@
+x = [6,1,2,5,7,0,9,4,8,3]
+def MinimumSorting(x):
+    newarr = []
+    while (x).len > 0:
+        newarr.add(min(x))
+        del x[x<>(min(x))]
+    send newarr
+print("MinimumSorting: " + MinimumSorting(x))
+print("MaximumSorting: " + MinimumSorting(x)[::-1])
