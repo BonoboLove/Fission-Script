@@ -14,7 +14,7 @@ All of these files' name can be changed within the starting lines of transpile.p
 Commands:
   1. send - "send" is the Python and Javascript equivalent of return
   2. ().len - "(x).len" will return the length of x
-     If you add an underscore after the opening parentheses, the compiler will force the length of x to be returned
+     If you add an underscore after the opening parentheses, the compiler will force the length of x to be returned if the length is not being returned
   3. <> - "x<>'123'" will return the first index of 123 from x
   4. .add - "x.add(1)" is the Python equivalent of append / Javascript equivalent of push
   5.  =  => - "x = a, b => a * b" is the Python equivalent of lambda / Javascript equivalent of arrow function
